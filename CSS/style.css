@@ -99,6 +99,9 @@ blockquote {
 
 .caja-morada {
     background: #7541c8;
+    background-image: url(../images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top right 50px;
 }
 
 .caja-gris {
@@ -136,4 +139,45 @@ blockquote {
 .caja-Patrick {
     grid-row: 2/3;
     grid-column: 2/4;
+}
+
+/*ATRIBUTO, PIE DE PAGINA*/
+.attribution {
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+/*QUERY MOBILE*/
+@media (max-width: 700px) {
+    #grid .contenedor {
+        grid-template-columns: 1fr;
+    }
+
+    .caja-Daniel,
+    .caja-Jonathan,
+    .caja-Kira,
+    .caja-Jeanette,
+    .caja-Patrick {
+        grid-column: 1;
+    }
+
+    .caja-Daniel {
+        grid-row: 1;
+    }
+
+    .caja-Jonathan {
+        grid-row: 2;
+    }
+
+    .caja-Kira {
+        grid-row: 3;
+    }
+
+    .caja-Jeanette {
+        grid-row: 4;
+    }
+
+    .caja-Patrick {
+        grid-row: 5;
+    }
 }
