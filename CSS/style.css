@@ -41,7 +41,7 @@ blockquote {
     padding: 80px 0;
 }
 
-#grid .contenedor{
+#grid .contenedor {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
@@ -56,6 +56,45 @@ blockquote {
 .grid-box-autor {
     display: flex;
     align-items: center;
+}
+
+.grid-box-autor img {
+    border-radius: 50%;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.grid-box-autor-titulo p:first-child {
+    font-weight: 500;
+    color: #fff;
+}
+
+.grid-box-autor-titulo p:nth-child(2) {
+    color: #cfcfcf;
+}
+
+.grid-box h4 {
+    color: #fff;
+    padding: 15px 0;
+}
+
+.grid-box-white p:first-child {
+    font-weight: 700;
+    color: #48556a;
+}
+
+.grid-box-white p:nth-child(2) {
+    color: #48556a;
+    opacity: 100%;
+}
+
+.caja-blanca h4 {
+    color: #48556a;
+}
+
+.caja-blanca blockquote {
+    color: #48556a;
+    opacity: 100%;
 }
 
 .caja-morada {
