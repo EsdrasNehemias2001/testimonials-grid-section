@@ -169,15 +169,17 @@ blockquote {
         grid-row: 2;
     }
 
-    .caja-Kira {
+    .caja-Jeanette {
         grid-row: 3;
     }
 
-    .caja-Jeanette {
+    .caja-Patrick {
         grid-row: 4;
     }
 
-    .caja-Patrick {
+    
+    .caja-Kira {
         grid-row: 5;
     }
+
 }
